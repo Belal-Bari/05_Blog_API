@@ -1,0 +1,78 @@
+.homepage {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loading {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 3rem;
+}
+
+.post-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.post-card {
+    background-color: #f9f9f9;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h4 {
+    margin-bottom: 0.5rem;
+}
+
+.comments-section {
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #ccc;
+}
+
+.comment {
+    background-color: #fff;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    border-radius: 8px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+.comment h6 {
+    margin: 0;
+    font-weight: bold;
+}
+
+.comment p {
+    margin: 0.25rem 0;
+}
+
+.comment small {
+    color: gray;
+}
+
+.status {
+    margin-top: 1rem;
+    font-weight: bold;
+    color: green;
+}
+
+.timestamps {
+    color: #555;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+button {
+  margin-top: 10px;
+  padding: 6px 12px;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}

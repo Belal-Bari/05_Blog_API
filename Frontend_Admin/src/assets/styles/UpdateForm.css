@@ -1,0 +1,52 @@
+.update-form {
+  max-width: 600px;
+  margin: 2rem ;
+  padding: 2rem;
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.update-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.update-form label {
+  font-weight: bold;
+  color: #333;
+}
+
+.update-form input[type="text"],
+.update-form input[type="email"],
+.update-form textarea,
+.update-form input[type="password"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.update-form input[type="checkbox"] {
+  width: auto;
+  transform: scale(1.2);
+}
+
+.update-form button {
+  padding: 10px 15px;
+  background-color: #1e88e5;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.update-form button:hover {
+  background-color: #1565c0;
+}
