@@ -1,4 +1,4 @@
-# Dual Frontend Backend API
+# Dual Frontend With Single Backend API
 
 This project implements a RESTful backend using **Node.js** and **Express**, designed to serve **two separate frontend applications**:
 
